@@ -2,7 +2,7 @@
 export const site = {
   name: "Kübra Hıdırbozan",
   role: "Büyük Veri Analistliği Öğrencisi",
-  url: "https://kubrahidirbozan.com",
+  url: "https://kubrahidirbozan-ruby.vercel.app",
   school: "Manisa Celal Bayar Üniversitesi",
   program: "Büyük Veri Analistliği Programı, 2. sınıf",
   description:
@@ -17,7 +17,7 @@ export const site = {
   tags: ["Yazılım", "Veri Analizi", "Veri Görselleştirme", "İstatistik", "Büyük Veri", "Siber Güvenlik"],
   skills: {
     "İleri düzey": ["C#", "SQL", "Excel"],
-    "Orta düzey": ["Python", "Java"],
+    "Orta düzey": ["Python", "Java","HTML"],
   } as Record<string, string[]>,
   certificates: [
     { title: "Siber Vatan Eğitimi", org: "Siber Vatan", text: "Siber güvenlik alanında eğitim programı.", date: "" },
@@ -44,4 +44,5 @@ export const site = {
   email: "hidirbozankubra@gmail.com",
   github: "https://github.com/hidirbozankubra-cyber",
   instagram: "https://www.instagram.com/kubraahd/",
+  linkedin: "https://www.linkedin.com/in/k%C3%BCbra-h%C4%B1d%C4%B1rbozan-b69545390/"
 };
