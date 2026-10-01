@@ -11,6 +11,7 @@ const items = [
   { label: "E-posta", value: site.email, href: `mailto:${site.email}` },
   { label: "GitHub", value: "hidirbozankubra-cyber", href: site.github },
   { label: "Instagram", value: "@kubraahd", href: site.instagram },
+  { label: "LinkedIn", value: "Kübra Hıdırbozan", href: site.linkedin },
 ];
 
 export default function Contact() {
