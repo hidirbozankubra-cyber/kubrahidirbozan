@@ -40,6 +40,13 @@ export const site = {
       tags: ["EPİAŞ", "Open-Meteo", "Zaman Serisi", "Regresyon"],
       href: "https://github.com/hidirbozankubra-cyber",
     },
+    {
+      title: "Türkiye’de Sosyal Ağ Kullanımı: Etkileşimli Veri Hikâyesi",
+      status: "Ders projesi",
+      text: "Eurostat verisiyle 2014–2025 arasında Türkiye’nin sosyal ağ kullanımını AB ortalaması ve 36 Avrupa ülkesiyle karşılaştıran, kaydırdıkça değişen grafiklerle anlatılan bir veri hikâyesi. Kullanıcı Arayüzü Tasarımı dersi için hazırlandı.",
+      tags: ["Eurostat", "Veri Hikâyeciliği", "Python", "JavaScript", "SVG"],
+      href: "https://sosyal-ag-veri-hikayesi-site.vercel.app",
+    },
   ],
   email: "hidirbozankubra@gmail.com",
   github: "https://github.com/hidirbozankubra-cyber",
