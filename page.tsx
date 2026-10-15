@@ -1,26 +1,19 @@
-import Link from "next/link";
-import Hero from "@/components/Hero";
+import type { Metadata } from "next";
 import ProjectCard from "@/components/ProjectCard";
 import { site } from "@/data/site";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Projeler",
+  description: "Veri analizi ve veri görselleştirme projeleri: Wine Quality (Vinho Verde), EPİAŞ + Open-Meteo,EUROSTAT.",
+  alternates: { canonical: "/projeler" },
+};
+
+export default function Projects() {
   return (
-    <>
-      <Hero />
-      <main className="mx-auto max-w-6xl space-y-20 px-6 pb-24">
-        <section>
-          <div className="mb-8 flex items-end justify-between">
-            <h2 className="font-display text-3xl font-semibold">Öne çıkan projeler</h2>
-            <Link href="/projeler" className="text-sm text-accent hover:underline">Tüm projeler</Link>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2">{site.projects.map((p) => <ProjectCard key={p.title} p={p} />)}</div>
-        </section>
-        <section className="rounded-2xl border border-line bg-panel px-8 py-12">
-          <h2 className="font-display text-3xl font-semibold">Birlikte çalışalım</h2>
-          <p className="mt-3 max-w-lg text-muted">Staj, proje veya iş birliği teklifleri için benimle iletişime geçebilirsiniz.</p>
-          <Link href="/iletisim" className="mt-6 inline-block rounded-lg bg-accent px-5 py-3 font-medium text-bg">İletişime geç</Link>
-        </section>
-      </main>
-    </>
+    <main className="mx-auto max-w-6xl px-6 py-16">
+      <h1 className="font-display text-4xl font-semibold">Projeler</h1>
+      <p className="mt-3 max-w-xl text-muted">Ders kapsamında ve bireysel olarak yürüttüğüm çalışmalar.</p>
+      <div className="mt-10 grid gap-6 md:grid-cols-2">{site.projects.map((p) => <ProjectCard key={p.title} p={p} />)}</div>
+    </main>
   );
 }
