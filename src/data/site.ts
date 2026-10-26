@@ -51,7 +51,7 @@ export const site = {
     status: "Kullanıcı Arayüzü Tasarımı dersi",
     text: "Gerçek ESHOT GTFS verileriyle kampüs duraklarının sonraki 3 planlı seferini gösteren; sefer sıklığı grafikleri ve erişilebilir durak keşfi sunan web uygulaması.",
     tags: ["GTFS", "Veri Görselleştirme", "Erişilebilirlik", "Web Uygulaması"],
-    href: "https://github.com/hidirbozankubra-cyber/kampus-ulasim-asistani",},
+    href: "https://kampus-ulasim-asistani-ulbi.vercel.app/",},
   ],
   email: "hidirbozankubra@gmail.com",
   github: "https://github.com/hidirbozankubra-cyber",
