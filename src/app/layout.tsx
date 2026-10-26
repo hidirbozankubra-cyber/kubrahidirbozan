@@ -35,7 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     email: site.email,
     affiliation: { "@type": "CollegeOrUniversity", name: site.school },
     knowsLanguage: ["tr", "en", "de"],
-    sameAs: [site.github, site.instagram],
+    sameAs: [site.github, site.instagram, site.linkedin],
   };
   return (
     <html lang="tr" className={`${display.variable} ${sans.variable}`}>

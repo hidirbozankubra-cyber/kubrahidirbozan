@@ -12,12 +12,12 @@ export const site = {
   about: [
     "Manisa Celal Bayar Üniversitesi Büyük Veri Analistliği Programı'nda 2. sınıf öğrencisiyim. Verinin temizlenmesinden yorumlanmasına ve görselleştirilmesine kadar tüm süreci kapsayan çalışmalar yürütüyorum.",
     "Derslerimin yanında kendimi farklı alanlarda geliştirmeye önem veriyorum. Siber Vatan eğitimine, Lion Akademi'nin SQL eğitimine ve MCBU XRLab'ın Unity Temelleri ve Sanal Gerçeklik atölyesine katılarak yazılım, veri tabanı ve siber güvenlik alanlarındaki bakış açımı genişlettim.",
-    "Akademik projelerimde Wine Quality (Vinho Verde) ve EPİAŞ + Open-Meteo gibi gerçek veri setleriyle çalışıyor, bulguları anlaşılır grafiklerle ve istatistiksel yöntemlerle raporluyorum. İngilizce ve Almanca bilgim sayesinde kaynakları ve dokümantasyonu takip edebiliyorum.",
+    "Akademik projelerimde ESHOT, Wine Quality (Vinho Verde) ve EPİAŞ + Open-Meteo gibi gerçek veri setleriyle çalışıyor, bulguları anlaşılır grafiklerle ve istatistiksel yöntemlerle raporluyorum. İngilizce ve Almanca bilgim sayesinde kaynakları ve dokümantasyonu takip edebiliyorum.",
   ],
   tags: ["Yazılım", "Veri Analizi", "Veri Görselleştirme", "İstatistik", "Büyük Veri", "Siber Güvenlik"],
   skills: {
     "İleri düzey": ["C#", "SQL", "Excel"],
-    "Orta düzey": ["Python", "Java", "HTML"],
+    "Orta düzey": ["Python", "Java","HTML"],
   } as Record<string, string[]>,
   certificates: [
     { title: "Siber Vatan Eğitimi", org: "Siber Vatan", text: "Siber güvenlik alanında eğitim programı.", date: "" },
@@ -47,9 +47,14 @@ export const site = {
       tags: ["Eurostat", "Veri Hikâyeciliği", "Python", "JavaScript", "SVG"],
       href: "https://sosyal-ag-veri-hikayesi-site.vercel.app",
     },
+    {title: "Kampüs Ulaşım Asistanı",
+    status: "Kullanıcı Arayüzü Tasarımı dersi",
+    text: "Gerçek ESHOT GTFS verileriyle kampüs duraklarının sonraki 3 planlı seferini gösteren; sefer sıklığı grafikleri ve erişilebilir durak keşfi sunan web uygulaması.",
+    tags: ["GTFS", "Veri Görselleştirme", "Erişilebilirlik", "Web Uygulaması"],
+    href: "https://github.com/hidirbozankubra-cyber/kampus-ulasim-asistani",},
   ],
   email: "hidirbozankubra@gmail.com",
   github: "https://github.com/hidirbozankubra-cyber",
   instagram: "https://www.instagram.com/kubraahd/",
-  linkedin: "https://www.linkedin.com/in/k%C3%BCbra-h%C4%B1d%C4%B1rbozan-b69545390/",
+  linkedin: "https://www.linkedin.com/in/k%C3%BCbra-h%C4%B1d%C4%B1rbozan-b69545390/"
 };

@@ -4,7 +4,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Projeler",
-  description: "Veri analizi ve veri görselleştirme projeleri: Wine Quality (Vinho Verde) ve EPİAŞ + Open-Meteo.",
+  description: "Veri analizi ve veri görselleştirme projeleri: Wine Quality (Vinho Verde), EPİAŞ + Open-Meteo,EUROSTAT.",
   alternates: { canonical: "/projeler" },
 };
 
